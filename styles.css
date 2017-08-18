@@ -1,0 +1,202 @@
+body {
+    background-color: black;
+  }
+  #simon {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+  }
+  #greenArea {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-top-left-radius: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #greenLight {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #ADFF2F, #008000, #008000);
+    border-top-left-radius: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #redArea {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-top-right-radius: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #redLight {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, 	#FFFFE0, #FF0000, #FF0000);
+    border-top-right-radius: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #yellowArea {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-bottom-left-radius: 400px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  #yellowLight {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #FFFFFF, #FFFF60, #FFCC00);
+    border-bottom-left-radius: 400px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  #blueArea {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-bottom-right-radius: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  #blueLight {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #DDDDFF, #3333FF, #0000FF);
+    border-bottom-right-radius: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  #blackVert {
+    width: 400px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    z-index: 2;
+  }
+  #blackHorz {
+    width: 30px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 3;
+  }
+  #blackCircle {
+    width: 225px;
+    height: 225px;
+    border-radius: 500px;
+    background-color: black;
+    color: white;
+    Font-Family: Impact, Charcoal, sans-serif;
+    Font-Size: 60px;
+    text-align: center;
+    position: absolute;
+    top: 87px;
+    left: 87px;
+    z-index: 3;
+  }
+  #blackCircle > p {
+    position: absolute;
+    top: -15px;
+    left: 33px;
+  }
+  #score {
+    color: red;
+    height: 21px;
+    width: 80px;
+    font-family: Orbitron, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid red;
+    border-radius: 1px;
+    text-align: left;
+    position: absolute;
+    top: 130px;
+    left: 32px;
+  }
+  #score > p:nth-child(1) {
+    display: inline;
+    position: absolute;
+    top: -12px;
+    left: 4px;
+  }
+  #score > p:nth-child(2) {
+    display: inline;
+    font-weight: normal;
+    position: absolute;
+    top: -12px;
+    right: 4px;
+  }
+  #easyMode {
+    background-color: blue;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 132px;
+    left: 135px;
+  }
+  #easyLight {
+    background: radial-gradient(circle, #BBBBFF, #0000FF, gray);
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    position: absolute;
+    top: 132px;
+    left: 135px;
+  }
+  #hardMode {
+    background-color: green;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 132px;
+    left: 170px;
+  }
+  #hardLight {
+    background: radial-gradient(circle, lightgreen, green, gray);
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    position: absolute;
+    top: 132px;
+    left: 170px;
+  }
+  #hardText {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    position: absolute;
+    top: 155px;
+    left: 167px;
+  }
+  #easyText {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    position: absolute;
+    top: 155px;
+    left: 130px;
+  }
+  
